@@ -7,7 +7,7 @@ import React from "react";
 const Logo = () => {
   return (
     <div>
-      <a className="text-2xl font-bold cursor-pointer hover:text-primary transition-colors">
+      <a href="/" className="text-2xl font-bold cursor-pointer hover:text-secondary transition-colors">
         Qevo
       </a>
     </div>
