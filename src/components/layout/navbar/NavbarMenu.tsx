@@ -29,7 +29,7 @@ const NavbarMenu = () => {
           Home
         </a>
       </li>
-
+      
       <li>
         <a className="hover:bg-base-300 rounded-lg" role="menuitem">
           <svg

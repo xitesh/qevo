@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import DrawerToggle from "./DrawerToggle";
-import Logo from "./Logo";
+import Logo from "./Logo"; 
 import SearchButton from "./SearchButton";
 import NotificationButton from "./NotificationButton";
 import ThemeToggle from "./ThemeToggle";
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="drawer">
       {/* Hidden checkbox that controls the drawer state */}
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-
+      
       {/* Main content area - contains the navbar */}
       <div className="drawer-content">
         <div className="navbar fixed bg-base-100 shadow-sm z-30">
