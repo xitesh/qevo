@@ -5,6 +5,7 @@ import { Input } from "../ui/input";
 import { Search, MessageCircle, Bell, Plus, User } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 import Link from "next/link";
+import UserProfile from "./UserProfile";
 
 const Navbar = () => {
   // Reusable icon button component
@@ -85,12 +86,7 @@ const Navbar = () => {
         </IconButton>
 
         {/* Profile Icon */}
-        <IconButton 
-          ariaLabel="User profile menu"
-          className="flex justify-center items-center h-10 w-10 p-0.5 rounded-full hover:bg-accent cursor-pointer transition-colors"
-        >
-          <User className="w-6 h-6" />
-        </IconButton>
+        <UserProfile />
       </div>
     </nav>
   );
